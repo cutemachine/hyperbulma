@@ -1,0 +1,21 @@
+{
+  "name": "hyperparcel",
+  "version": "1.0.0",
+  "description": "A starter project for using Hyperapp with Bulma CSS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "repository": "https://github.com/cutemachine/hyperbulma.git",
+  "author": "jo@cutemachine.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.5.1"
+  },
+  "dependencies": {
+    "hyperapp": "^1.0.2"
+  }
+}
