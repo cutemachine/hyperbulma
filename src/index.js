@@ -1,5 +1,5 @@
 import { h, app } from "hyperapp"
-import Navbar from './components/Navbar'
+import MainView from './views/MainView'
 
 const state = {
 }
@@ -7,11 +7,4 @@ const state = {
 const actions = {
 }
 
-const view = (state, actions) => (
-  <div>
-    <Navbar />
-    <h1><i class='fa fa-github' /> HyperBulma</h1>
-  </div>
-)
-
-const main = app(state, actions, view, document.body)
+const main = app(state, actions, MainView, document.body)
