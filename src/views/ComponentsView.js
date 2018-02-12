@@ -239,6 +239,260 @@ export default () => (
           </div>
         </nav>
       </div>
+      <div class="block box">
+        <form>
+          <div class="field">
+            <label class="label">label</label>
+            <input type="text" class="input" placeholder="input" />
+          </div>
+          <div class="field">
+            <label class="label">label</label>
+            <input type="text" class="input is-success" placeholder="input is-success" />
+          </div>
+          <div class="field">
+            <label class="label">label</label>
+            <input type="text" class="input is-danger" placeholder="input is-danger" />
+          </div>
+          <div class="field">
+            <label class="label">label</label>
+            <p class="control">
+              <span class="select">
+                <select>
+                  <option>select</option>
+                  <option>option one</option>
+                  <option>option two</option>
+                  <option>option three</option>
+                </select>
+              </span>
+            </p>
+          </div>
+          <div class="field">
+            <label class="label">label</label>
+            <p class="control">
+              <textarea class="textarea" placeholder="Textarea" />
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="block box">
+        <div class="field has-addons">
+          <p class="control">
+            <input type="text" class="input" placeholder="input" />
+          </p>
+          <p class="control">
+            <a href="" class="button is-info">button is-info</a>
+          </p>
+        </div>
+      </div>
+      <div class="block box">
+        <div class="field has-addons">
+          <p class="control">
+            <span class="select">
+              <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </span>
+          </p>
+          <p class="control">
+            <input type="text" class="input" placeholder="input" />
+          </p>
+          <p class="control">
+            <a href="" class="button is-info">button is-info</a>
+          </p>
+        </div>
+      </div>
+      <div class="block box">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Color</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Barbapapa</td>
+              <td>pink</td>
+            </tr>
+            <tr class="is-selected">
+              <td>Barbamama</td>
+              <td>black</td>
+            </tr>
+            <tr>
+              <td>Barbabella</td>
+              <td>lilac</td>
+            </tr>
+            <tr>
+              <td>Barbaletta</td>
+              <td>orange</td>
+            </tr>
+            <tr>
+              <td>Barbalala</td>
+              <td>green</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table is-striped">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Color</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Barbapapa</td>
+              <td>pink</td>
+            </tr>
+            <tr class="is-selected">
+              <td>Barbamama</td>
+              <td>black</td>
+            </tr>
+            <tr>
+              <td>Barbabella</td>
+              <td>lilac</td>
+            </tr>
+            <tr>
+              <td>Barbaletta</td>
+              <td>orange</td>
+            </tr>
+            <tr>
+              <td>Barbalala</td>
+              <td>green</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table is-bordered">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Color</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Barbapapa</td>
+              <td>pink</td>
+            </tr>
+            <tr class="is-selected">
+              <td>Barbamama</td>
+              <td>black</td>
+            </tr>
+            <tr>
+              <td>Barbabella</td>
+              <td>lilac</td>
+            </tr>
+            <tr>
+              <td>Barbaletta</td>
+              <td>orange</td>
+            </tr>
+            <tr>
+              <td>Barbalala</td>
+              <td>green</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table is-narrow is-striped">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Color</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Barbapapa</td>
+              <td>pink</td>
+            </tr>
+            <tr class="is-selected">
+              <td>Barbamama</td>
+              <td>black</td>
+            </tr>
+            <tr>
+              <td>Barbabella</td>
+              <td>lilac</td>
+            </tr>
+            <tr>
+              <td>Barbaletta</td>
+              <td>orange</td>
+            </tr>
+            <tr>
+              <td>Barbalala</td>
+              <td>green</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="block box">
+        <div class="columns">
+          <div class="column">
+            <p class="notification">column</p>
+          </div>
+          <div class="column">
+            <p class="notification">column</p>
+          </div>
+          <div class="column">
+            <p class="notification">column</p>
+          </div>
+          <div class="column">
+            <p class="notification">column</p>
+          </div>
+        </div>
+      </div>
+      <div class="block box">
+        <div class="columns">
+          <div class="column is-2">
+            <p class="notification">column is-2</p>
+          </div>
+          <div class="column is-8">
+            <p class="notification">column is-8</p>
+          </div>
+          <div class="column is-2">
+            <p class="notification">column is-2</p>
+          </div>
+        </div>
+      </div>
+      <div class="block box">
+        <div class="columns">
+          <div class="column is-three-quarters">
+            <p class="notification">column is-three-quarters</p>
+          </div>
+          <div class="column">
+            <p class="notification">column</p>
+          </div>
+          <div class="column">
+            <p class="notification">column</p>
+          </div>
+        </div>
+      </div>
+      <div class="block box">
+        <div class="columns">
+          <div class="column is-two-thirds">
+            <p class="notification">column is-two-thirds</p>
+          </div>
+          <div class="column">
+            <p class="notification">column</p>
+          </div>
+          <div class="column">
+            <p class="notification">column</p>
+          </div>
+        </div>
+      </div>
+      <div class="block box">
+        <div class="columns">
+          <div class="column is-half">
+            <p class="notification">column is-half</p>
+          </div>
+          <div class="column">
+            <p class="notification">column</p>
+          </div>
+          <div class="column">
+            <p class="notification">column</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 )
