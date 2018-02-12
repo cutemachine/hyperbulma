@@ -1,9 +1,9 @@
 import {h} from 'hyperapp'
 
 export default () => (
-  <section class="section">
-    <div class="container">
-      <div class="content">
+  <section class='section'>
+    <div class='container'>
+      <div class='content'>
         <h1>What Is HyperBulma?</h1>
         <p>HyperBulma is a starter application which utilizes the power of Hyperapp combined with the Bulma CSS framework. You will be up and running with a new Hyperapp application in no time. The project structure is easy to grasp and should not stand in your way.</p>
         <h2>Technologies Used</h2>

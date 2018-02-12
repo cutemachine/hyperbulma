@@ -1,5 +1,5 @@
-import { h, app } from "hyperapp"
-import { location } from "@hyperapp/router"
+import { h, app } from 'hyperapp'
+import { location } from '@hyperapp/router'
 import MainView from './views/MainView'
 
 const state = {

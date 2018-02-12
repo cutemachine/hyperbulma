@@ -1,4 +1,4 @@
-import { h, app } from "hyperapp"
+import { h, app } from 'hyperapp'
 
 export default ({ color, title, subtitle }, children) => (
   <section class={`hero is-${color}`}>
