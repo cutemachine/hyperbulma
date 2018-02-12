@@ -13,7 +13,7 @@ export default (state, actions) => (
     <Route path='/' render={() => <Hero color='primary' title='HyperBulma' subtitle='A Hyperapp Starter Using Bulma CSS' />} />
     <Route path="/" render={HomeView} />
     <Route path="/components" render={ComponentsView} />
-    <Route path="/app" render={AppView} />
+    <Route path="/app" render={() => <AppView state={state} actions={actions}/>} />
     <Footer>
       <strong>HyperBulma</strong> by <a href="https://steemit.com/@cutemachine">@cutemachine</a>.
     </Footer>
