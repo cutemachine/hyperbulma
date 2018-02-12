@@ -17,14 +17,14 @@ export default () => (
           <li><a href='https://parceljs.org'>Parcel—Blazing fast, zero configuration web application bundler</a></li>
         </ul>
         <h2>Getting Started</h2>
-        <p>It is very simple to build your project on top of this starter. Just clone the starter in a folder with your project's name. Then remove the Git history to be able to initialize your own Git repository. Then install the dependencies with <code>yarn</code>. When the installation has finished you can run the new app with <code>yarn start</code>. These are the steps in more detail:</p>
+        <p>It is very simple to build your project on top of this starter. Just clone the starter in a folder with your project&apos;s name. Then remove the Git history to be able to initialize your own Git repository. Then install the dependencies with <code>yarn</code>. When the installation has finished you can run the new app with <code>yarn start</code>. These are the steps in more detail:</p>
         <ol>
           <li><code>git clone https://github.com/cutemachine/hyperbulma.git YOUR_PROJECT</code></li>
           <li><code>cd YOUR_PROJECT</code></li>
           <li><code>rm -rf .git</code></li>
           <li><code>git init</code></li>
           <li><code>git add .</code></li>
-          <li><code>git commit -m 'Initial version of YOUR_PROJECT'</code></li>
+          <li><code>git commit -m &apos;Initial version of YOUR_PROJECT&apos;</code></li>
           <li><code>yarn</code></li>
           <li><code>yarn start</code></li>
         </ol>

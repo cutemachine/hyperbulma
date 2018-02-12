@@ -21,6 +21,6 @@ export default ({ state, actions }) => (
           <a class='button is-large is-primary is-pulled-right card-footer-item' onclick={actions.increment}><i class='fa fa-thumbs-o-up' /></a>
         </footer>
       </div>
-		</div>
+    </div>
   </section>
 )
