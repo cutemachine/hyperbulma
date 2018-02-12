@@ -1,7 +1,7 @@
 import { h, app } from "hyperapp"
 import { Link } from "@hyperapp/router"
 
-export default ({ color }, children) => (
+export default () => (
   <nav class="navbar is-transparent">
     <div class="navbar-brand">
       <a class="navbar-item" href='/'>
@@ -27,4 +27,3 @@ export default ({ color }, children) => (
     </div>
   </nav>
 )
-
