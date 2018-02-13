@@ -9,7 +9,7 @@ import AppView from './AppView'
 
 export default (state, actions) => (
   <div>
-    <Navbar />
+    <Navbar isNavbarMenuActive={state.isNavbarMenuActive} toggleNavbarMenu={actions.toggleNavbarMenu} />
     <Route path='/' render={() => <Hero color='primary' title='HyperBulma' subtitle='A Hyperapp Starter Using Bulma CSS' />} />
     <Route path='/' render={HomeView} />
     <Route path='/components' render={ComponentsView} />
